@@ -1,0 +1,9 @@
+.banner-img img {
+    height: 600px;
+    opacity: 0.8;
+}
+
+span .visually-hidden {
+    color: red;
+    font-size: 200px;
+}

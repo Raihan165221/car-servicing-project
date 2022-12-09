@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Replace Tire",
+        "price": 2000,
+        "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quisquam eos qui reiciendis nesciunt repudiandae impedit doloremque mollitia placeat aliquid. Deserunt velit quam adipisci provident ipsum. Dignissimos dolor accusamus facere.",
+        "img": "https://i.ibb.co/xfkWKVD/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "WHILE ALIGMENT",
+        "price": 120,
+        "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quisquam eos qui reiciendis nesciunt repudiandae impedit doloremque mollitia placeat aliquid. Deserunt velit quam adipisci provident ipsum. Dignissimos dolor accusamus facere.",
+        "img": "https://i.ibb.co/TW882mC/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "OIL CHANGING",
+        "price": 150,
+        "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quisquam eos qui reiciendis nesciunt repudiandae impedit doloremque mollitia placeat aliquid. Deserunt velit quam adipisci provident ipsum. Dignissimos dolor accusamus facere.",
+        "img": "https://i.ibb.co/gSw906M/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "BRAKE REPARING",
+        "price": 380,
+        "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quisquam eos qui reiciendis nesciunt repudiandae impedit doloremque mollitia placeat aliquid. Deserunt velit quam adipisci provident ipsum. Dignissimos dolor accusamus facere.",
+        "img": "https://i.ibb.co/LxyJhLd/4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "WASH AND GALSSING",
+        "price": 100,
+        "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quisquam eos qui reiciendis nesciunt repudiandae impedit doloremque mollitia placeat aliquid. Deserunt velit quam adipisci provident ipsum. Dignissimos dolor accusamus facere.",
+        "img": "https://i.ibb.co/JRkvbby/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "COMPLETE ANALYSIS",
+        "price": 300,
+        "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quisquam eos qui reiciendis nesciunt repudiandae impedit doloremque mollitia placeat aliquid. Deserunt velit quam adipisci provident ipsum. Dignissimos dolor accusamus facere.",
+        "img": "https://i.ibb.co/FXWFFn4/6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "PERFECT WASHING",
+        "price": 400,
+        "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quisquam eos qui reiciendis nesciunt repudiandae impedit doloremque mollitia placeat aliquid. Deserunt velit quam adipisci provident ipsum. Dignissimos dolor accusamus facere.",
+        "img": "https://i.ibb.co/C1mSBzC/7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "LIGHTING REPAIR",
+        "price": 320,
+        "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quisquam eos qui reiciendis nesciunt repudiandae impedit doloremque mollitia placeat aliquid. Deserunt velit quam adipisci provident ipsum. Dignissimos dolor accusamus facere.",
+        "img": "https://i.ibb.co/xJg65pg/8.jpg"
+    }
+]

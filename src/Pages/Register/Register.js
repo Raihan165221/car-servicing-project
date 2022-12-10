@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import './Register.css';
 import auth from '../../firebase.init';
+import SocialLogIn from '../Login/SocialLogIn/SocialLogIn';
 
 const Register = () => {
-
+    const [agree, setAgree] = useState(false);
     const [
         createUserWithEmailAndPassword,
         user,
@@ -20,21 +21,26 @@ const Register = () => {
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
-        createUserWithEmailAndPassword(email, password);
+        if (agree) {
+            createUserWithEmailAndPassword(email, password);
+        }
     }
     if (user) {
         navigate('/')
     }
     return (
-        <div>
+        <div className='w-75 mx-auto'>
             <h1 className='form-title'>Please Register</h1>
             <form onSubmit={handleRegister} className='input-form'>
                 <input type="text" name="name" id="" placeholder='Your Name' required />
                 <input type="email" name="email" id="" placeholder='Email Address' required />
                 <input type="password" name="password" id="" placeholder='Type Password' required />
-                <input type="submit" value="Register" />
+                <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="terms" />
+                <label className={`ms-2 mt-2 ${!agree ? '' : 'text-primary'}`} htmlFor="terms">Accept Genius Car Mekar Terms & Conditions</label>
+                <input disabled={!agree} className='btn btn-primary' type="submit" value="Register" />
             </form>
-            <p className='text-center mt-2'>Already have an Account? <Link className='text-decoration-none text-danger' to='/login'>Please Log In</Link></p>
+            <p className='text-center mt-2'>Already have an Account? <Link className='text-decoration-none text-primary' to='/login'>Please Log In</Link></p>
+            <SocialLogIn />
         </div>
     );
 };
